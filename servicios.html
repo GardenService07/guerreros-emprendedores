@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú del Restaurante</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: verde;
+      margin-bottom: 40px;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 30px;
+      padding: 0 20px;
+    }
+
+    .plato {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .plato:hover {
+      transform: scale(1.02);
+    }
+
+    .plato img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .plato-info {
+      padding: 15px;
+    }
+
+    .plato-nombre {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .plato-descripcion {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .plato-precio {
+      font-size: 18px;
+      font-weight: bold;
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>A.J GARDEN SERVICE TE OFRECE</h1>
+
+  <div class="menu">
+    <div class="plato">
+      <img src="larger_shutterstock_380327803.JPG">
+      <div class="plato-info">
+        <div class="plato-nombre">SERVICIO DE JARDINERIA</div>
+        <div class="plato-descripcion">UN TRABAJO DE MUY ALTA CALIDAD.</div>
+        <div class="plato-precio">$500</div>
+      </div>
+    </div>
+	
+  <div class="menu">
+    <div class="plato">
+      <img src="00750158920051L.JPG">
+      <div class="plato-info">
+        <div class="plato-nombre">TIERRA PREPARADA</div>
+        <div class="plato-descripcion">TIERRA CON NUTRIENTES EFICAZ Y ECENCIAL PARA EL CRECIMIENTO DE SUS PLANTAS.</div>
+        <div class="plato-precio">$100</div>
+      </div>
+    </div>
+	
+  <div class="menu">
+    <div class="plato">
+      <img src="fcdae5_c60f1881f3d74d91a0fca5f1286b32dd~mv2.JPG">
+      <div class="plato-info">
+        <div class="plato-nombre">CONTROL DE PLAGAS PARA SUS JARDINES</div>
+        <div class="plato-descripcion">NO GENERA NINGUN TIPO DE DAÑO A SUS AREAS VERDES.</div>
+        <div class="plato-precio">$300</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
